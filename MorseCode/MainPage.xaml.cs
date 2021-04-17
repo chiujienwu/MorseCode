@@ -39,7 +39,7 @@ namespace MorseCode
             try
             {
                 char letter = Morse.MorseCoder(input);
-                Output_Letter.Text += letter;
+                Output_Letters.Text += letter;
                 Output_Morse.Text += " ";
                 input = "";
 
